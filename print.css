@@ -1,0 +1,67 @@
+#app {
+  display: flex;
+}
+#app-container {
+  padding: 20px;
+  padding-top: 0;
+  width: 50%;
+  border: 1px solid blue;
+}
+.header {
+  display: flex;
+}
+.header .info {
+  flex: 1;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .col {
+  flex: 1;
+}
+
+.label {
+  display: inline-block;
+  min-width: 4rem;
+  text-align: right;
+  margin-right: 0.25rem;
+}
+
+.header .qrcode {
+  min-width: 300px;
+  text-align: center;
+}
+
+.body-type {
+  display: flex;
+}
+
+.body-type .body-table {
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+.body-table .measure-remarks {
+  margin-top: 1.25rem;
+}
+
+.style-picture {
+  margin-top: 4rem;
+  margin-left: 1.25rem;
+}
+
+.warehouse-notes {
+  display: flex;
+  margin-top: 1.25rem;
+}
+
+.print-button {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
